@@ -23,7 +23,7 @@ const Navbar = () => {
       {/* Help Link */}
 
       <a
-          href="https://wa.me/9779824765952?text=Please%20Help%20Me%20To%20Choose%20Best%20Hostel"
+          href="https://wa.me/9779817815910?text=Please%20Help%20Me%20To%20Choose%20Best%20Hostel"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2 bg-white text-green-700 rounded-lg font-semibold hover:bg-green-100 transition-colors"

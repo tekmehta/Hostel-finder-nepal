@@ -174,10 +174,10 @@ function Page() {
 
 <div className="fixed bottom-2 left-1/2 transform -translate-x-1/2">
   <a
-    href="tel:9824765952"
+    href="tel:9817815910"
     className="px-6 py-3 bg-green-600 text-white text-lg font-semibold rounded-full shadow-lg hover:bg-green-700 focus:outline-none"
   >
-    Call Now
+    Book Now
   </a>
 </div>
 
