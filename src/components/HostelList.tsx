@@ -90,15 +90,38 @@ function HostelList({ searchQuery }: HostelListProps) {
                 </div>
                 <h1 className="text-2xl font-bold mb-2">{hostel.name}</h1>
                 <p className="text-sm mb-3">{hostel.location}</p>
+
+
+                
+                {/* <div className="flex items-center space-x-2 mb-3 text-sm"> */}
+                  {/* <span className="bg-white text-black px-3 py-1 rounded-full"> */}
+                    {/* if female is yes then show female if no cut female */}
+                    {/* {hostel.female === "yes" return "female" || "cut female in middle"} */}
+                  {/* </span> */}
+                  {/* <span className="text-lg">|</span> */}
+                  {/* <span className="bg-white text-black px-3 py-1 rounded-full"> */}
+                     {/* if female is yes then show female if no cut female */}
+                     {/* {hostel.male === "yes" return "male" || "cut male in middle"} */}
+                  {/* </span> */}
+                {/* </div> */}
+
                 <div className="flex items-center space-x-2 mb-3 text-sm">
-                  <span className="bg-white text-black px-3 py-1 rounded-full">
-                    Female
-                  </span>
-                  <span className="text-lg">|</span>
-                  <span className="bg-white text-black px-3 py-1 rounded-full">
-                    Male
-                  </span>
-                </div>
+  {hostel.female === "yes" ? (
+    <span className="bg-white text-black px-3 py-1 rounded-full">Female</span>
+  ) : (
+    <span className="line-through text-gray-500">Female</span>
+  )}
+  <span className="text-lg">|</span>
+  {hostel.male === "yes" ? (
+    <span className="bg-white text-black px-3 py-1 rounded-full">Male</span>
+  ) : (
+    <span className="line-through text-gray-500">Male</span>
+  )}
+</div>
+
+
+
+
                 <div className="flex justify-between items-center mt-4">
                   <span className="text-lg font-semibold">
                     Available:{" "}

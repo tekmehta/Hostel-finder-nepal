@@ -7,20 +7,22 @@ const hstlDetails = [
       Available: "Yes",
       message:"feel comfortable with us",
       link: "ganpati",
+      male: "yes",
+      female:"no",
       price: [
         {
-          one:13000,
-          two:12000,
-          three:11000,
-          four:10000,
+          One:13000,
+          Two:12000,
+          Three:11000,
+          Four:10000,
         }
       ],
       img: ["building1.jpg", "building2.jpg", "building3.jpg"],
       facility:[
         {
-          hot_water:"yes",
-          fast_wifi: "yes",
-          parking: "yes",
+          Hot_Water:"yes",
+          Fast_Wifi: "yes",
+          Parking: "yes",
           Food: "Very Good",
           Laundry: "yes",
           Study_Room: "no",
@@ -35,6 +37,8 @@ const hstlDetails = [
       location: "Kathmandu",
       Rate: 2,
       Available: "No",
+      male: "no",
+      female:"yes",
       message:"feel comfortable with us",
       link: "london",
       price: [
@@ -65,6 +69,8 @@ const hstlDetails = [
       location: "Imadol",
       Rate: 5,
       Available: "Yes",
+      male: "yes",
+      female:"yes",
       message:"feel comfortable with us",
       link: "ktm",
       price: [
@@ -95,6 +101,9 @@ const hstlDetails = [
       location: "PLH",
       Rate: 4,
       Available: "Yes",
+      
+      male: "no",
+      female:"yes",
       message:"feel comfortable with us",
       link: "rbj",
       price: [
