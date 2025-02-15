@@ -1,133 +1,110 @@
 const hstlDetails = [
     {
       id:1,
-      name: "Ganpati Paying Guest",
-      location: "Kathmandu, tinkumne",
+      name: "Tejas Boy's Hostel",
+      location: "Kathmandu, Tinkune",
+      Rate: 4,
+      Available: "No",
+      male: "yes",
+      female:"no",
+      message:"Experience The Best Hostel Facilities In Tinkune",
+      link: "tejas",
+      price: [
+        {
+          one:"N/A",
+          two:12000,
+          three:11000,
+          four:10000,
+        }
+      ],
+      img: ["building4.jpg", "building5.jpg", "building6.jpg",],
+      facility:[
+        {
+          hot_water:"yes",
+          fast_wifi: "yes",
+          parking: "yes",
+          Food: "Very Good",
+          Laundry: "yes",
+          Study_Room: "no",
+          Gym_Access: "no",
+          Electricity: "24 Hours"
+        }
+        ]
+    },
+    {
+      id:2,
+      name: "Dhobighat Boy's Hostel",
+      location: "Dhobighat,Ringroad, Near NCM College",
       Rate: 3,
       Available: "Yes",
-      message:"feel comfortable with us",
-      link: "ganpati",
+      message:"Family Environment, Good And Hygienic Food",
+      link: "dhobighat",
       male: "yes",
       female:"no",
       price: [
         {
-          One:13000,
-          Two:12000,
-          Three:11000,
-          Four:10000,
+          One:"N/A",
+          Two:32000,
+          Three:10500,
+          Four:"N/A",
         }
       ],
-      img: ["building1.jpg", "building2.jpg", "building3.jpg"],
+      img: [
+        "Dhobighat_Boys_Hostel_1.jpeg",
+        "Dhobighat_Boys_Hostel_2.jpg",
+        "Dhobighat_Boys_Hostel_3.jpg",
+        "Dhobighat_Boys_Hostel_4.jpg",
+      ],
       facility:[
         {
           Hot_Water:"yes",
           Fast_Wifi: "yes",
           Parking: "yes",
-          Food: "Very Good",
+          Food: "Excellent",
           Laundry: "yes",
-          Study_Room: "no",
+          Study_Room: "yes",
           Gym_Access: "no",
           Electricity: "24 Hours"
         }
         ]
-    },
-    {
-        id:2,
-      name: "London Guest House",
-      location: "Kathmandu",
-      Rate: 2,
-      Available: "No",
-      male: "no",
-      female:"yes",
-      message:"feel comfortable with us",
-      link: "london",
-      price: [
-        {
-          one:13000,
-          two:12000,
-          three:11000,
-          four:10000,
-        }
-      ],
-      img: ["building4.jpg", "building5.jpg", "building6.jpg"],
-      facility:[
-        {
-          hot_water:"yes",
-          fast_wifi: "yes",
-          parking: "yes",
-          Food: "Very Good",
-          Laundry: "yes",
-          Study_Room: "no",
-          Gym_Access: "no",
-          Electricity: "24 Hours"
-        }
-        ]
-    },
+    },   
     {
         id:3,
-      name: "KTM Paying Guest",
-      location: "Imadol",
-      Rate: 5,
+      name: "Nest Boys Hostel",
+      location: "Lilitpur Mahanagarpalika 2 Sanepa",
+      Rate: 3,
       Available: "Yes",
       male: "yes",
-      female:"yes",
+      female:"no",
       message:"feel comfortable with us",
-      link: "ktm",
+      link: "nest",
       price: [
         {
-          one:13000,
+          one:16500,
           two:12000,
           three:11000,
           four:10000,
         }
       ],
-      img: ["building2.jpg", "building4.jpg", "building6.jpg"],
+      img: [
+        "Nest_Boys_hostel_1.png",
+        "Nest_Boys_hostel_2.png",
+        "Nest_Boys_hostel_3.png",
+        "Nest_Boys_hostel_4.png",
+      ],
       facility:[
         {
-          hot_water:"yes",
+          hot_water:"no",
           fast_wifi: "yes",
           parking: "yes",
-          Food: "Very Good",
+          Food: "Excellent",
           Laundry: "yes",
           Study_Room: "no",
           Gym_Access: "no",
           Electricity: "24 Hours"
         }
         ]
-    },
-    {
-        id:4,
-      name: "RBJ Paying Guest",
-      location: "PLH",
-      Rate: 4,
-      Available: "Yes",
-      
-      male: "no",
-      female:"yes",
-      message:"feel comfortable with us",
-      link: "rbj",
-      price: [
-        {
-          one:13000,
-          two:12000,
-          three:11000,
-          four:10000,
-        }
-      ],
-      img: ["building2.jpg", "building4.jpg", "building6.jpg"],
-      facility:[
-        {
-          hot_water:"yes",
-          fast_wifi: "yes",
-          parking: "yes",
-          Food: "Very Good",
-          Laundry: "yes",
-          Study_Room: "no",
-          Gym_Access: "no",
-          Electricity: "24 Hours"
-        }
-        ]
-    },
+    },      
   ];
   
   export default hstlDetails;

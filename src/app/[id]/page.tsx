@@ -113,7 +113,7 @@ function Page() {
 
 
     <div className="mt-6">
-  <h3 className="text-xl font-semibold text-gray-800">Price Accourding To Seater</h3>
+  <h3 className="text-xl font-semibold text-gray-800">Price According To Seater</h3>
   <table className="border-collapse mt-4 mx-auto w-3/4 bg-white shadow-lg rounded-lg overflow-hidden">
     <thead className="bg-green-600 text-white">
       <tr>
