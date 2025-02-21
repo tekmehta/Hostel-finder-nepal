@@ -14,7 +14,7 @@ function Banner() {
         }}
       >
         <h1 className="text-4xl font-bold text-white  p-5">Find Your Stay With Us!!</h1>
-        <span className='text-md text-white m-5 font-bold'>With the successful completion of the admissions process, call us to receive a surprise reward.</span>
+        <span className='text-xl text-gray-100 m-5 font-bolds text-center'>Complete your registration with us to get a discount on the fee.</span>
         {/* <div className="flex items-center bg-white rounded-lg overflow-hidden w-96 shadow-lg">
           <input
             type="text"

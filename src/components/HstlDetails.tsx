@@ -44,7 +44,7 @@ const hstlDetails = [
       price: [
         {
           One:"N/A",
-          Two:32000,
+          Two:13000,
           Three:10500,
           Four:"N/A",
         }
