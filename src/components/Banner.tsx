@@ -14,8 +14,8 @@ function Banner() {
         }}
       >
         <h1 className="text-4xl font-bold text-white  p-5">Find Your Stay With Us!!</h1>
+        <span className='text-xl text-gray-100 m-5 font-bolds text-center'>Get a discount on the fee by completing your registration with us.</span>
         {/* <span className='text-xl text-gray-100 m-5 font-bolds text-center'>Complete your registration with us to get a discount on the fee.</span> */}
-        <span className='text-xl text-gray-100 m-5 font-bolds text-center'>"Get a discount on the fee by completing your registration with us."</span>
         {/* <div className="flex items-center bg-white rounded-lg overflow-hidden w-96 shadow-lg">
           <input
             type="text"
