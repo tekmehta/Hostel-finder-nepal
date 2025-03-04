@@ -45,7 +45,8 @@ function HostelList({ searchQuery }: HostelListProps) {
 
   return (
     <>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6234871523126610" crossOrigin="anonymous"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5750174899489372"
+     crossOrigin="anonymous"></script>
       <Filter onFilterChange={handleFilterChange} />
       <div className="px-5 py-2">
         {noMatchMessage && (
